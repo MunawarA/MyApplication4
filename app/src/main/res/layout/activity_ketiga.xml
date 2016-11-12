@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="SAYA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:id="@+id/txtNamaAplikasi"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/txtNamaAplikasi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Budi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNama"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtNamaAplikasi"
+        android:layout_toLeftOf="@+id/txtNamaAplikasi"
+        android:layout_toStartOf="@+id/txtNamaAplikasi" />
+
+    <TextView
+        android:text="example@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/txtNama"
+        android:layout_alignStart="@+id/txtNama"
+        android:id="@+id/txtMail" />
+
+    <TextView
+        android:text="Laki - Laki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="44dp"
+        android:id="@+id/txtJK2"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="Keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnKeluar"
+        android:layout_below="@+id/txtAlamat2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Jalan Bandara SIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txtAlamat2"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtJK2"
+        android:layout_alignLeft="@+id/txtJK2"
+        android:layout_alignStart="@+id/txtJK2" />
+</RelativeLayout>
